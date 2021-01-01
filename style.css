@@ -1,0 +1,71 @@
+body {
+    overscroll-behavior: contain;
+  }
+
+.cb{
+width:400px;
+height:400px;
+}
+
+#mycanvas{
+    height:400px;
+    width:400px;
+    border: 1px solid;
+    position:absolute;
+}
+
+.cs1{
+    width:450px;
+    height:475px; 
+}
+
+.ch1{
+    height:30px;
+}
+
+.ncs1{
+    width:180px;
+    height:80px;
+}
+
+@media only screen and (max-device-width: 480px){
+
+    .cb{
+        width:400px;
+        height:350px;
+        }
+
+    #mycanvas{
+        height:300px;
+        width:300px;
+        border: 1px solid;
+        position:absolute;
+    }
+
+    .cs1{
+        width:340px;
+        height:400px; 
+    }
+
+    .cc1{
+        margin-left: -20px;
+    }
+
+    .ch1{
+        height:50px;
+    }
+
+    .cs2{
+        height:400px;
+    }
+
+    .cbb1{
+        height:260px;
+    }
+
+    .nn{
+        
+        z-index: 2;
+    }
+    
+}
